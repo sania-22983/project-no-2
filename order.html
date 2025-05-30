@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delicious Bites</title>
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h3 style="margin-left: 30px;">Fork & <span style="color: rgb(219, 96, 96);">Flame</span></h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto text-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="order.html">Online Orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="clients.html">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Online Orders Section -->
+<section class="py-5" style="background-color: #111; color: #fff;" id="orders">
+    <div class="container">
+      <div class="text-center mb-5" data-aos="fade-down">
+        <h2 class="display-5">Order Online from <span class="text-danger">Flame & Fork</span></h2>
+        <p class="text-white">Delicious meals delivered hot & fresh — straight to your door.</p>
+        <p class="mt-2">
+          <strong>🕒 Order Timings:</strong> <span class="text-light">12:00 PM – 11:00 PM (Daily)</span>
+        </p>
+      </div>
+  
+      <div class="row g-4">
+        <!-- Food Item 1 -->
+        <div class="col-md-4" data-aos="zoom-in">
+          <div class="card bg-dark text-white border-0 shadow-lg h-100">
+            <img src="piza.jpg" class="card-img-top" alt="Pizza">
+            <div class="card-body">
+              <h5 class="card-title">Wood-Fired Pizza</h5>
+              <p class="card-text">Crispy base with fire-grilled toppings and premium cheese.</p>
+              <a href="#" class="btn btn-danger">Order Now</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Food Item 2 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card bg-dark text-white border-0 shadow-lg h-100">
+            <img src="burger.jpg" class="card-img-top" alt="Burger">
+            <div class="card-body">
+              <h5 class="card-title">Classic Flame Burger</h5>
+              <p class="card-text">Juicy beef patty grilled to perfection with spicy sauce.</p>
+              <a href="#" class="btn btn-danger">Order Now</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Food Item 3 -->
+        <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card bg-dark text-white border-0 shadow-lg h-100">
+            <img src="pasta2.jpg" class="card-img-top" alt="Pasta">
+            <div class="card-body">
+              <h5 class="card-title">Creamy Alfredo Pasta</h5>
+              <p class="card-text">Rich, cheesy sauce tossed with freshly cooked pasta.</p>
+              <a href="#" class="btn btn-danger">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+   <!-- Contact Us Section -->
+   <section id="contact" class="py-5" style="background: url('contact-bg.jpg') center/cover no-repeat;">
+    <div class="container">
+      <h2 class="text-center text-white mb-5 fw-bold" data-aos="fade-up">Contact Us</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="p-4 rounded shadow text-white contact-box" data-aos="zoom-in">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Your message here..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-danger mt-2">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="py-4 text-white" style="background: rgba(0, 0, 0, 0.7); backdrop-filter: blur(6px);">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 Flame & Fork. All rights reserved.</p>
+      <p class="small">Follow us on
+        <a href="#" class="text-danger text-decoration-none">Facebook</a> |
+        <a href="#" class="text-danger text-decoration-none">Instagram</a> |
+        <a href="#" class="text-danger text-decoration-none">Twitter</a>
+      </p>
+    </div>
+  </footer>
+  
+  <!-- AOS JS (Just before -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
